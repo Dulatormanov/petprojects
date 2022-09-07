@@ -1,12 +1,14 @@
 **Dulat Ormanov**
------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 **Contacts**
 Phone number: +7 708 216 27 88
 Telegram: @goldenageof
 Gmail: dulatpingood@gmail.com
 **Aboout me**
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 I am web developer intern attaining sufficient skills by participating in various of courses and projects.
 **Skills**
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 HTML
 CSS
 JAVASCRIPT
@@ -14,6 +16,7 @@ JAVA
 PYTHON
 SQL
 **Code Example**
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -87,11 +90,14 @@ p{
 </html>
 ```
 **Experience**
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 I have 1 year of experience in Java
 built several pet projectsd in Python
 Just started to learn HTML CSS JS
 **Education**
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 I am 2nd year bachelor student
 I had participated in course like Jetbrains Academy: Python core, Python for Machine learning, Frontend core, and now participating in self paced specialization of Rolling school which people graduates as full fledged junior frontend developer
 **English**
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 I have an ielts band:5.5
