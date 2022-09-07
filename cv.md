@@ -1,0 +1,109 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+**Dulat Ormanov**
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+**Contacts**
+Phone number: +7 708 216 27 88
+Telegram: @goldenageof
+Gmail: dulatpingood@gmail.com
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+**Aboout me**
+I am web developer intern attaining sufficient skills by participating in various of courses and projects.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+**Skills**
+HTML
+CSS
+JAVASCRIPT
+JAVA
+PYTHON
+SQL
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+**Code Example**
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#aboutme">About me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+</head>
+<body>
+<title>Dakee</title>
+
+<h1>
+  <b>Dulat Ormanov, Frontend developer</b>
+</h1>
+<!--<h1 id="About me">About me</h1>
+<h1 id="Portfolio">Portfolio</h1>
+<h1 id="Contacts">Contacts</h1>-->
+<section id="about">
+  <h2>
+    <b>About me</b>
+  </h2>
+
+  <div><img src="https://lh3.googleusercontent.com/309_n2Bvgsqes9P91WjvD_ZEvJpfkKb0SkSJwMgGMZdwZeUpQ5hdFiAr1XbJ5ZEg5cldvTr9Y0d3hbnCcH1V8MZR6mcUN16ulq3aNe71F_jqG9HO2Bsd8nYmwIsAjyuDmRhJs2IW1n20PA9GKLZ198ND47i22irnghiyl__JhPStOAs_rHCI-oVVCso8PF1eZgCB8p4ndw0zPTqW6QPAmPlFku1acTgGWcpyxnQqZbcrknR9qw8GBv16uLUSqiVVuXFDpsO0zXN1N0oU8weJ1eRFvFdUuaQky9vESMH-8w-3qQfNOUyTf9FZmn4uwtv9ejHRiuAeB7zirXuP4WVF8qm_e8ywJS6RW5QZg33IY-YKLDBZ_mCQia3sM1Ym1cfi-q9VbPecy6z9kdF37HENFx_jWdFxvKsToJSVrZiAw0JN4cfPF-2xnevZh7YN0DdM14tChdKLwxBW0wc9NrTk9CwS2yqABfCH3Rl6zTOrBV81k2PwrjzcfxT0MN-SxQ-1Tsk6tsuMUvrMJ99eCdBSJFCqozCtCS6s_nZmHLw4PGYwp9nUuomSi_whV2vCH5P81-joV_K-j6HaXOprneWW3A42pYxF49P_9faSIJWmE0WP2dLJx8VZHsnMfURFDaDVI549F7QmmCXHKdDFpSm6kMWv_gohmuYIFTuGefcrFgILmPUxQOszphpIlL-Vt1f8tnPNHB1TIcsJzeOQUyEWlq_GmouN1D18tSmuAym_udSqW39cP5st2EUV6OJwzrcWw9F13vyGJZifRpD9sDYUdAcMO3h2WT9u5VUXIN1YIlJU_T8J3udtzGSLxI8rVQKqY-WnGw=w1238-h1650-no?authuser=0" alt="like a boss" width="300" height="400">
+    <p>Hi, I'm Dulat.I am frontend developer intern, cause i just started my journey i do not have relevant experience.</p>
+    <p>For me programming is the thing which by the using it very good you can achieve so many things</p>
+    <p>I'm open to knowledge and to any feedbacks from my senior coleagues</p>
+    <p><b>Skills:</b> HTML, CSS</p>
+  </div>
+</section>
+<section id="portfolio">
+  <h2>
+    <b>Portfolio</b>
+  </h2>
+</section>
+<div>
+  <img src="https://lh3.googleusercontent.com/lGqKC5-x0Eqrh4eTsS4hmkDMBVrcvicUxSBXwlZxfXdSrppWeP1eGy_LKkw66YdxK_3s-RVQ_oQMVoMahbzjpxQRNx5qubIpzwvujwPvBSuVUUol-ptH-GE-AfxjgL-Kz-k0qXU4ndTwCqYNbIlcrg4GThOzQRNo62GDSeXcHZB0Ru_yTxV0hpGdJeEkfxBNcpdJD1qlSG2OpIzyjR0R5nXdX40v_0wMRvt7ohTIQlbIdCplSs_5eD6t-IouITg8UCT4dGDDNKQWgWjzs0IdWf42yAZ5PmPVQZdYVZm0Fer43ZMW6660iaBnUIgQ3nIhoS7EsgVlMtQ5xbLZE8wEQMaUIOBWdUtCGIn35SBtntwqGkL-rdVpyL5sqxNZRBD8g8ar4GVTRHCKJUpc_EnPyK2JUOIOQOT9oPYOQheAtju_Hm4k9hgNddvIGp2ejfA1nKbd3G4vZ2jSvy-JB2O9_0yoppC7rOnNINjBXJUSsuGIe409b3DvaezT5TkUK0d736eXR4ZO_Bs8rpHr5TxjvJUEwyqwMTQ5WMue460gIpgxiMvI2LGQWDKojlpH76qXE7Wgu-TbLQJ3VCvAFS6l9zFj_yhGEczyAd3w3dhMl4hi6zWfApsduqLn-GdfkhucEBPv0OUj70-l0IPzmTYoOym-WIEL79rjbjXo3s7oVDNIud1hLf1Y1O7xwf0UQOu0n-8nxvBDlbnKjWc80pXTd38a6IlMg8xAADauCoC05twucDrUWIC6n-OT25Bdl336vfomLAg3SBkOFqA0Nqv9ZXw3tLZpHCGQVIrSPljR6lSji_8xexEtyGETX-L7vL-1gXMuSQ=w1056-h660-no?authuser=0" alt="like a boss">
+</div>
+<section id="contacts">
+  <h2>
+    <b>Contacts</b>
+  </h2>
+</section>
+<footer>
+  <nav>
+    <p>
+      You can contact me at <a href="mailto": dulatpingood@gmail.com>dulatpingood@gmail.com</a>  or my phone  number <a href="tel": +77082162788>+77082162788</a>
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffindicons.com%2Ffiles%2Ficons%2F2779%2Fsimple_icons%2F2048%2Fgithub_2048_black.png&f=1&nofb=1" height="100" width="100">
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.hGaetDAQWapgIJbIOhPhXwHaHa%26pid%3DApi&f=1" height="100" width="100">
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.ZdyqM6V64IIzVPuCUo_ZRAHaE7%26pid%3DApi&f=1" height="100" width="100">
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.JCI8klaaA1w4LCtljpeJoAHaHa%26pid%3DApi&f=1" height="100" width="100">
+    </p>
+  </nav>
+</footer>
+<p>Dulat Ormanov, 2022</p>
+
+<style> body {
+  background-color: skyblue;
+}
+p{
+  color: green;
+}</style>
+
+</body>
+</html>
+```
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+**Experience**
+I have 1 year of experience in Java
+built several pet projectsd in Python
+Just started to learn HTML CSS JS
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+**Education**
+I am 2nd year bachelor student
+I had participated in course like Jetbrains Academy: Python core, Python for Machine learning, Frontend core, and now participating in self paced specialization of Rolling school which people graduates as full fledged junior frontend developer
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+**English**
+I have an ielts band:5.5
