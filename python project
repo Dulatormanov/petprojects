@@ -1,0 +1,145 @@
+Project "Coffee Machine"
+A coffee that you don’t have to make yourself. It’s enough to press a couple of buttons on the machine and you get a cup of energy; 
+but first, we should teach the machine how to do it. In this project, i worked on programming a coffee machine simulator. 
+The machine works with typical products: coffee, milk, sugar, and plastic cups; if it runs out of something, it shows a notification. 
+You can get three types of coffee: espresso, cappuccino, and latte. Since nothing’s for free, it also collects the money.
+'''
+import sys
+money = 550
+water = 400
+milk = 540
+cofbea = 120
+discup = 9
+def remaining():
+    print("The coffee machine has:")
+    print(f"{water} ml of water")
+    print(f"{milk} ml of milk")
+    print(f"{cofbea} g of coffee beans")
+    print(f"{discup} disposable cups")
+    print(f"${money} of money")
+    print(main())
+def cappuccino():
+    global water
+    global money
+    global cofbea
+    global discup
+    global milk
+    while True:
+        B = [water, milk, cofbea, discup]
+        S = [200, 100, 12, 1]
+        subs = list()
+        hub = list()
+        for p in range(len(B)):
+            item = B[p] - S[p]
+            subs.append(item)
+        for i in subs:
+            if i < 0:
+                print("Sorry, not enough water!")
+                print(main())
+
+            else:
+                hub.append(i)
+        water = hub[0]
+        milk = hub[1]
+        cofbea = hub[2]
+        discup = hub[3]
+        money += 6
+        print("I have enough resources, making you a coffee!")
+        print(main())
+def latte():
+    global water
+    global money
+    global cofbea
+    global discup
+    global milk
+    while True:
+        B = [water, milk, cofbea, discup]
+        S = [350, 75, 20, 1]
+        subs = list()
+        hub = list()
+        for p in range(len(B)):
+            item = B[p] - S[p]
+            subs.append(item)
+        for i in subs:
+            if i < 0:
+                print("Sorry, not enough water!")
+                print(main())
+
+            else:
+                hub.append(i)
+        water = hub[0]
+        milk = hub[1]
+        cofbea = hub[2]
+        discup = hub[3]
+        money += 7
+        print("I have enough resources, making you a coffee!")
+        print(main())
+def espresso():
+    global water
+    global money
+    global cofbea
+    global discup
+    global milk
+    while True:
+        B = [water, cofbea, discup]
+        S = [250, 16, 1]
+        subs = list()
+        hub = list()
+        for p in range(len(B)):
+            item = B[p] - S[p]
+            subs.append(item)
+        for i in subs:
+            if i < 0:
+                print("Sorry, not enough water!")
+                print(main())
+
+            else:
+                hub.append(i)
+        water = hub[0]
+        cofbea = hub[1]
+        discup = hub[2]
+        money += 4
+        print("I have enough resources, making you a coffee!")
+        print(main())
+def filldo(c, d, e, g):
+    global water
+    global milk
+    global cofbea
+    global discup
+    water += c
+    milk += d
+    cofbea += e
+    discup += g
+    print(main())
+def main():
+    while True:
+        a = input("Write action (buy, fill, take, remaining, exit):")
+        if a == 'buy':
+            b = input("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:")
+            if b == "1":
+                print(espresso())
+            elif b == "2":
+                print(latte())
+            elif b == "3":
+                print(cappuccino())
+            elif b == "back":
+                print(main())
+        elif a == 'fill':
+            c = int(input("Write how many ml of water you want to add:"))
+            d = int(input("Write how many ml of milk you want to add:"))
+            e = int(input("Write how many grams of coffee beans you want to add:"))
+            g = int(input("Write how many disposable cups you want to add:"))
+            filldo(c, d, e, g)
+        elif a == 'take':
+            global money
+
+            print(f"I gave you ${money}")
+            money = 0
+        elif a == "remaining":
+            print(remaining())
+        else:
+            sys.exit()
+
+
+print(main())
+'''
